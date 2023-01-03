@@ -1,0 +1,33 @@
+body{
+  background-color: rgb(76, 0, 153);
+  margin: 0px;
+}
+#wrap{
+  max-width: 700px;
+  max-height: 800px;
+  margin: 0 auto;
+}
+#nav{
+  float: left;
+  height: 370px;
+  background-color: rgb(153, 204, 255);
+  padding: 20px 20px;
+}
+#content{
+  background-color: rgb(0, 76, 153);
+  height: 410px;
+}
+ul{
+  list-style-type: none;
+  text-align: center;
+}
+.copyright{
+  margin-left: 620px;
+}
+h1{
+  text-align: center;
+  padding-top: 20px;
+}
+div > p{
+  text-align: center;
+}

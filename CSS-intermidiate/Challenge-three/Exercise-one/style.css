@@ -1,0 +1,28 @@
+body{
+  margin: 0px;
+}
+div{
+  width: 900px;
+  margin: 0px auto;
+}
+
+.left{
+  width: 25%;
+  background-color: pink;
+  height: 100px;
+  display: inline-block;
+  margin-bottom: 5px;
+}
+.right{
+  width: 65%;
+  background-color: yellow;
+  height: 100px;
+  display: inline-block;
+  margin-bottom: 5px;
+}
+footer{
+  display: inline-block;
+  height: 100px;
+  width: 90.5%;
+  background-color: blue;
+}

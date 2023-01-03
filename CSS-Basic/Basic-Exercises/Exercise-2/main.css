@@ -1,0 +1,17 @@
+
+.number{
+  background-color: rgb(255, 190, 190);
+  font-family: Verdana, Geneva, Tahoma, sans-serif, Dejavu Sans;
+}
+#number2{
+  color: rgb(0, 0, 255);
+  font-size: 36px;
+}
+.different{
+  font-size: 24px;
+}
+#number4{
+  font-size: 24px;
+  font-weight: 700;
+  background-color: rgb(95, 245, 130);
+}

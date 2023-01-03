@@ -1,0 +1,29 @@
+.conteiner{
+  width: 1100px;
+  
+}
+div{
+  display: inline-block
+}
+.header__content{
+  width: 97.5%;
+  background-color: blueviolet;
+  border: 2px solid black;
+  height: 300px;
+  margin-bottom: 30px;
+}
+div .content_column{
+  width: 30%;
+  height: 350px;
+  border: 2px solid black;
+  margin-right: 30px;
+}
+.first{
+  background: red;
+}
+.second{
+  background-color: green;
+}
+.third{
+  background-color: orange;
+}
