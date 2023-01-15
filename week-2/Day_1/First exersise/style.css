@@ -1,0 +1,58 @@
+body{
+  width: 1200px;
+  margin: 0 auto;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 14px;  
+}
+.third__p span{
+  background-color: yellow;
+}
+.cat__list{
+  margin-left: 50px;
+}
+.cat__list-title{
+  text-decoration: underline;
+}
+.cat__title-last{
+  text-align: center;
+  margin-bottom: 100px;
+}
+.cat__img{
+  text-align: center;
+  border: 5px solid rgb(221, 110, 13);
+  width: 800px;
+  margin: 0 auto;
+}
+th, td {
+  border: 1px solid black;
+  text-align: center;
+}
+
+td{
+  width: 50%;
+}
+.table__one{
+  text-align: center;
+  border: 2px solid red;
+  color: red;
+}
+.table__one-or{
+  width: 95%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.table__two-or{
+  margin: 0 auto;
+  width: 95%;
+  margin-bottom: 50px;
+}
+.lion__img{
+  text-align: center;
+  border: 5px solid rgb(221, 110, 13);
+  width: 800px;
+  margin: 0 auto;
+}
+.lion__des{
+  padding: 20px 10px;
+  text-align: left;
+}
