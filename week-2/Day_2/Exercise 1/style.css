@@ -52,11 +52,12 @@ body{
 .content__items{
   display: grid;
   gap: 30px 10px;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   grid-template-rows: repeat(3, 1fr);
+  grid-auto-flow: dense ;
 }
 .content__image img{
-  width: 290px;
+  max-width: 290px;
 }
 .content__ttle{
   text-align: center;
@@ -152,21 +153,12 @@ body{
   background-color: green;
 }
 
-@media (max-width: 760px){
-
-.content__items {
+@media all and (max-width:600px) and (min-width:760px){
+  .content__items{
   display: grid;
   gap: 30px 10px;
-  grid-template-columns: repeat(1, 1fr);
-  grid-template-rows: repeat(12, 1fr);}
+  grid-template-columns: repeat(2, 280px);
+  grid-template-rows: repeat(6, 1fr);
+
 }
-
-
-@media (max-width: 990px){
-
-.content__items {
-  display: grid;
-  gap: 30px 10px;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(6, 1fr);}
 }

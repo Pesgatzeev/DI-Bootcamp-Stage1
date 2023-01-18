@@ -1,0 +1,30 @@
+.conteiner{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.header_top{
+  height: 100px;
+  background-color: #0D8084;
+}
+.header__title{
+  padding-top: 30px;
+  text-align: center;
+  font-size: 14px;
+  color: white;
+}
+.header__btn{
+  margin-right: 20px;
+  padding: 10px 40px ;
+  color: white;
+  background-color: #4488CB;
+  border: none;
+}
+
+.header{
+  margin-bottom: 20px;
+}
+form{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(7, 1fr);
+}
