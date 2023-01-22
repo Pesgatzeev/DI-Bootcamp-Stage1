@@ -1,0 +1,36 @@
+body{
+  background-color: grey;
+}
+.conteiner{
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: white;
+  height: 100vh;
+}
+
+.small__grid{
+  display: grid;
+  grid-template-columns: repeat(2, 75px);
+  grid-template-rows: repeat(2, 75px);
+}
+
+.color1{
+background-color: white;
+}
+.color2{
+background-color: red;
+opacity: 0.5;
+}
+.color3{
+background-color: red;
+opacity: 0.5;
+
+}
+.color4{
+background-color: red;
+}
+.big__grid{
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+}

@@ -1,0 +1,147 @@
+.conteiner{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.header__left{
+  display: flex;
+  height: 150px;
+  align-items: center;
+  background-color: #ededed;
+}
+.header__logo img{
+  width: 100px;
+  height: 100px;
+}
+.header__nav{
+  display: flex;
+  list-style-type: none;
+}
+.header__nav li{
+  margin-right: 30px;
+  color: black;
+  font-weight: 700;
+
+}
+.header__top{
+  display: flex;
+  justify-content: space-between;
+  background-color: #ededed;
+  padding: 0px 20px;
+  border-bottom: 20px solid red;
+  border-top: 2px solid red;
+
+}
+.header__right{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__right ul{
+  display: flex;
+  list-style-type: none;
+  margin-right: 30px;
+}
+
+.header__right ul li{
+  margin-right: 30px;
+  color: black;
+  font-weight: 700;
+}
+.header__right-btn{
+  padding: 10px 40px;
+  background-color: red;
+  color: white;
+  border: 2px solid yellow;
+}
+.main__inner{
+  width: 70%;
+  margin: 0 auto;
+}
+.main__title{
+  font-size: 25px;
+  font-size: 700;
+  text-align: center;
+}
+.main__subtitle{
+  text-align: center;
+  color: black;
+}
+
+.main__form select{
+  width: 400px;
+  padding: 10px;
+  border: 2px solid red;
+}
+.main__form{
+  text-align: center;
+}
+label{
+  font-size: 18px;
+}
+.colums__items{
+  display: flex;
+  justify-content: space-between;
+}
+.colums__item{
+  width: 32%;
+  border: 2px solid red;
+  background-color: #ededed;
+}
+main{
+  margin-bottom: 100px;
+  text-align: center;
+}
+.columms__item-img img{
+  width: 50px;
+  height: 50px;
+ 
+}
+.columms__item-title{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: black;
+}
+.columms__item-img{
+  margin-bottom: 30px;
+}
+.columms__item-subtitle{
+  margin-bottom: 10px;
+  text-align: center;
+}
+.colums__item div{
+  text-align: center;
+}
+.columms__item-price{
+  margin: 10px 0px;
+  font-size: 40px;
+}
+.columms__item-price span{
+  font-size: 30px;
+  color: orangered;
+  
+}
+
+.column__btn{
+  padding: 10px 40px;
+  background-color: red;
+  color: white;
+  border: 2px solid yellow;
+  margin-left: 90px;
+  margin-bottom: 20px;
+
+}
+p{
+  text-align: center;
+  font-weight: 700;
+}
+.colums__item ul{
+  list-style-type: none;
+}
+
+.colums__item li{
+  padding-bottom: 10px;
+  font-size: 14px;
+  text-align: center;
+}

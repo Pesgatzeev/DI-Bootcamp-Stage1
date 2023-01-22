@@ -1,0 +1,38 @@
+
+body{
+  background-color: grey;
+}
+
+.conteiner{
+  width: 1200px;
+  margin: 0 auto;
+  background-color: white;
+  height: 100vh;
+}
+.item{
+  width: 70px;
+  height: 70px;
+}
+.orange{
+  background-color: orange;
+}
+.yellow{
+  background-color: yellow;
+}
+.grey{
+  background-color: grey;
+}
+.small__grid{
+  display: grid;
+  grid-template-columns: repeat(3, 70px);
+  grid-template-rows: repeat(3, 70px);
+  gap: 10px
+}
+.pink{
+  color: pink;
+}
+.big_grid{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+}
