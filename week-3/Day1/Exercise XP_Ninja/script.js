@@ -36,5 +36,24 @@
 
     // console.log(sum);
 
-    const user = prompt("I love the movie named Nemo);
-    console.log(user.indexOf('Nemo'));
+  //   const user = prompt("Pls write a centence with the word nemo").toLowerCase;
+  //   let nemoPosition = user.indexOf('Nemo');
+
+  //   if(nemoPosition>=0){
+  //   console.log(`I foun word nemo at the position of ${nemoPosition}`);
+  // }else{
+  //     console.log('I did not found nemo').toLowerCase;
+  //   }
+
+
+  // let usersAnswer = prompt(`Pls, write down some number`);
+
+  // if (usersAnswer < 2){
+  // console.log('Boom');
+  // } else if (usersAnswer % 2 = 0){
+  //   console.log(`Booom!`);
+  // } else if (usersAnswer % 5 = 0){
+  //   console.log(`BOOM`);
+  // } else if (usersAnswer % 2 = 0 && usersAnswer % 5 = 0 ){
+  //   console.log('BOOM!');
+  // }
