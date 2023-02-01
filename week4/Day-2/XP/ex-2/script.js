@@ -29,28 +29,35 @@
 // // <ul class="usersAnswer">
 // //     <li>first name of the user</li>
 // //     <li>last name of the user</li>
-// // </ul>
+// // // </ul>
 
-// const form = document.forms[0];
-// console.log(form);
 
-// // const firstNameInpt = document.querySelector('#fnname');
-// // console.log(firstNameInpt);
-// // const lastNameInpt = document.querySelector('#lname');
-// // console.log(lastNameInpt);
 
-// const firstNameInpt = form.elements.fname;
-// console.log(firstNameInpt);
-// const lastNameInpt = form.elements.lname;
-// console.log(lastNameInpt);
+// let form = document.forms[0];
 
-// form.addEventListener('submit', getData);
 
-// function getData(evt) {
-//   evt.preventDefault();
-//   const getInfo = form.querySelector('input[type="text"]').value;
-//   const li = document.createElement('li');
-//   li.textContent = getInfo;
-//   const ul = document.querySelector('usersAnswer');
-//   ul.appendChild(li);
+
+// form.addEventListener('submit', getInform);
+
+// function getInform(e){
+// e.preventDefault();
+
+// let firstelement = form.elements.fname.value;
+// let secondelement = form.elements.lname.value;
+
+// let firstli = document.createElement('li');
+// firstli.innerText = firstelement;
+// let secondli = document.createElement('li');
+// secondli.innerText = secondelement;
+// let ul = document.createElement('ul');
+// let body = document.body;
+// body.appendChild(ul);
+// ul.appendChild(firstli);
+// ul.appendChild(secondli);
+
+// if(firstelement === '' || secondelement === ''){
+//   alert('You should insert information in both fields')
+// } else{
+//   ul === '';
 // }
+// };
