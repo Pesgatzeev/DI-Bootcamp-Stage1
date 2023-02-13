@@ -1,0 +1,16 @@
+textarea{
+  width: 400px;
+  height: 300px;
+  margin-bottom: 10px;
+  resize: none;
+}
+input{
+  width: 380px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+button{
+  width: 400px;
+  padding: 10px;
+  background-color: pink;
+}
